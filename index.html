@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>我的個人履歷</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>MyWebsite</h1>
+    </header>
+
+    <nav>
+      <a href="#aboutme">關於我</a>
+      <a href="#inform">個人資料</a>
+      <a href="#skill">專業技能</a>
+      <a href="#experience">個人經歷</a>
+    </nav>
+
+    <section class="text about">
+      <h2 id="aboutme">關於我</h2>
+      <img src="image/photo.jpg" style="border-radius:50%;" height="250" width="200">
+      <p>陳睿廷</p>
+      <p>主修：中原大學資管系</p>
+      <p>人不論做錯幾次，只要不失再來一次的勇氣，必然大有可為。</p>
+    </section>
+
+    <section class="text">
+      <h2 id="inform">個人資料</h2>
+      <p>生日：11/6</p>
+      <p>個性：坦率、不善交際、有同理心</p>
+      <p>個人特質：ISFJ、實事求是、無拘束</p>
+      <p>興趣：看電影、玩遊戲</p>
+      <div class="infor_movie">
+        <h2>最近看的電影：</h2>
+        <div class="movie1">
+          <p>片名：快轉人生(still time)</p>
+          <img src="image/movie1.jpg" height="250px" width="200px">
+        </div>
+        <div class="movie2">
+          <p>片名：鈴芽之旅(suzume)</p>
+          <img src="image/movie2.jpg" height="250px" width="200px">
+        </div>
+      </div>
+    </section>
+
+    <section class="text">
+      <h2 id="skill">專業技能</h2>
+      <div class="python">Python 80%<br><progress id="file" max="100" value="80"></progress></div>
+      <div class="html">HTML 70%<br><progress id="file" max="100" value="70"></progress></div>
+      <div class="java">JAVA 60%<br><progress id="file" max="100" value="60"></progress></div>
+      <div class="sql">MySQL 50%<br><progress id="file" max="100" value="50"></progress></div>
+    </section>
+
+    <section class="text">
+      <h2 id="experience">個人經歷</h2>
+      <div class="exp">
+        <div>
+          <div class="expimg">
+            <img src="image/exp1.jpg" height="450px" width="350px">
+          </div>
+          <div class="exptext">
+            <p><h4>星星藝術季「醜小鴨」聯合公益展覽</h4></p>
+            <p>因為管理學的專題，意外接觸到此展覽，透過擔任志</p>
+            <p>工去協助較弱勢的小孩們，舉辦屬於他們自己的畫展</p>
+            <p>，讓大眾明白小孩們都有獨特的地方，也可以為他們</p>
+            <p>為自己的夢想所募資。</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="expimg">
+            <img src="image/exp2.png" height="450px" width="350px">
+          </div>
+          <div class="exptext">
+            <p><h4>網頁程式設計</h4></p>
+            <p>這堂課相當特別，因為要與其他組合作，一組擔任
+            <p>前端，一組擔任後端，透過討論才能整合出各自想</p>
+            <p>要的網頁，讓我了解到網頁開發的不容易。</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="expimg">
+            <img src="image/exp3.jpg" height="450px" width="350px">
+          </div>
+          <div class="exptext">
+            <p><h4>個人捐血</h4></p>
+            <p>捐血是項對人有益也對自己有益的活動，</p>
+            <p>可以促進新陳代謝也能平衡自己的鐵質，</p>
+            <p>而我從17歲就開始進行，至今已累積14次</p>
+            <p>的捐血，未來也會繼續進行。</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="expimg">
+            <img src="image/exp4.jpg" height="450px" width="350px">
+          </div>
+          <div class="exptext">
+            <p><h4>自我挑戰</h4></p>
+            <p>曾經想自我挑戰看看，就與朋友約好在晚上</p>
+            <p>騎車上武嶺，最後我們趕在日出前到了山頂</p>
+            <p>，所以才有這張照片，留下了不同的體驗也</p>
+            <p>有新的收穫。</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      <a href="https://instagram.com/winds_1106?igshid=OTJhZDVkZWE="><img src="image/ig.png" height="80px" width="80px"></a>
+      <a href="mailto:a0909228869@gmail.com"><img src="image/email.png" height="80px" width="80px"></a>
+      <h5>Copyrgiht @ 2023 All rights reserved</h5>
+    </footer>
+  </body>
+</html>
